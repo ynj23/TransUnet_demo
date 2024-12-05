@@ -163,4 +163,5 @@ if __name__ == '__main__':
     x = torch.rand(4, 3, 128, 128).to(device)
 
     pred = transunet(x)
+    print("11")
     print(pred.shape)
